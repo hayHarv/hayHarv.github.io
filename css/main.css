@@ -1,26 +1,38 @@
 body {
 		margin:60px auto;
-		width: 70%;
+		width: 80%;
 }
+
+div.body {
+		position: center;
+}
+
 
 nav ul, footer ul {
 		font-family:'Helvetica','Arial','Sans-Serif';
 		padding: 0px;
 		list-syle: none;
 		font-weight: bold;
+		text-align: center;
 }
 
 nav ul li, footer ul li {
 		display: inline;
 		margin-right: 20px;
+		padding: 2px;
 }
 
 .content {
 		margin: auto;
-		width: 60%;
+		width: 70%;
 		padding: 10px;
 }
 
+.container {
+		background-color: #e4f1e1;
+		width: 60%;
+		padding: 4px;
+}
 
 a {
 		text-decoration: none;
@@ -32,8 +44,9 @@ a:hover {
 }
 
 h1 {
-		font-size: 3em;
+		font-size: 2em;
 		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+		padding: 4px 0 8px 10px;
 }
 
 p {
@@ -43,9 +56,20 @@ p {
 		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+nav {
+		width: 60%;
+		position: center;
+		padding: 4px;
+		background-color: #b4d9cc;
+}
+
 footer {
 		border-top: 1px solid #d5d5d5;
 		font-size: .8em;
+		background-color: #b4d9cc;
+		padding: 4px;
+		width: 60%;
+		position: center;
 }
 
 ul.posts {
@@ -56,8 +80,7 @@ ul.posts {
 
 ul.posts li {
 		list-style: none;
+		font-size: .8em;
 }
 
-#post ul {
-		font-family: 'Helvetica', 'Ariel', 'Sans-Serif';
-}
+
