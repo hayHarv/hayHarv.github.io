@@ -8,6 +8,12 @@ div.body {
 }
 
 
+nav h2 {
+		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+		text-align: center;
+}
+
+
 nav ul, footer ul {
 		font-family:'Helvetica','Arial','Sans-Serif';
 		padding: 0px;
@@ -29,7 +35,6 @@ nav ul li, footer ul li {
 }
 
 .container {
-		background-color: #e4f1e1;
 		width: 60%;
 		padding: 4px;
 }
@@ -50,8 +55,8 @@ h1 {
 }
 
 p {
-		font-size: 1.5em;
-		line-height: 1.4em;
+		font-size: 1em;
+		line-height: 1.2em;
 		color: #333;
 		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -60,13 +65,10 @@ nav {
 		width: 60%;
 		position: center;
 		padding: 4px;
-		background-color: #b4d9cc;
 }
 
 footer {
-		border-top: 1px solid #d5d5d5;
 		font-size: .8em;
-		background-color: #b4d9cc;
 		padding: 4px;
 		width: 60%;
 		position: center;
