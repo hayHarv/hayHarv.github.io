@@ -1,21 +1,43 @@
 body {
-		margin:60px auto;
-		width: 80%;
+		background: #89c0b6;
 }
 
-div.body {
-		position: center;
+div {
+		display: block;
 }
 
+@media (min-width: 768px)
+.container {
+		width: 750px;
+}
+
+div.container {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+
+}
+
+div.row {
+		margin-right: -15px;
+		margin-left: -15px;
+}
 
 nav h2 {
-		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+		font-family: Monospace; 
 		text-align: center;
+		color: #105965;
+}
+
+nav, footer {
+		margin-right: auto;
+		margin-left: auto;
 }
 
 
 nav ul, footer ul {
-		font-family:'Helvetica','Arial','Sans-Serif';
+		font-family: Monospace;
 		padding: 0px;
 		list-syle: none;
 		font-weight: bold;
@@ -28,15 +50,25 @@ nav ul li, footer ul li {
 		padding: 2px;
 }
 
-.content {
-		margin: auto;
-		width: 70%;
-		padding: 10px;
+
+div#content {
+		margin-right: auto;
+		margin-left: auto;
+		background: #b4d9cc;
 }
 
-.container {
-		width: 60%;
-		padding: 4px;
+div#textcontent {
+		margin-right: auto;
+		margin-left: auto;
+		background: #e4f1e1;
+		padding: 8px;
+		width: 95%;
+}	
+
+div#textcontent ul {
+		list-style: none;
+		font-family: Monospace;
+		font-size: 1em;
 }
 
 a {
@@ -50,15 +82,17 @@ a:hover {
 
 h1 {
 		font-size: 2em;
-		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 		padding: 4px 0 8px 10px;
+		font-family: Monospace;
 }
 
 p {
-		font-size: 1em;
-		line-height: 1.2em;
+		text-align: justify;
+		font-size: 1.2em;
+		line-height: 1.3em;
 		color: #333;
-		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+		font-family: Monospace;
+		margin-top: 8px;
 }
 
 nav {
@@ -84,5 +118,6 @@ ul.posts li {
 		list-style: none;
 		font-size: .8em;
 }
+
 
 
